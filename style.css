@@ -1,0 +1,90 @@
+body{
+	font-family: arial;    
+	background-image: linear-gradient(to bottom right, #392270, #e9275b);
+	background-repeat: no-repeat;
+	height: 97vh;
+	color: white;
+
+}
+	
+.container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 40px;
+}
+
+.Tools-container{
+	display: grid;
+	background-color: gray;
+	width: 300px;
+	margin: 0px 30px;
+	border-radius: 4px;
+	box-shadow: 7px 7px 7px black;
+}
+
+input[type='color']{
+	margin: 10px auto;
+	border: none;
+    width: 80px;
+    height: 80px;
+  	border-radius: 50px;
+  	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ 	 overflow: hidden;
+ 	 cursor: pointer;
+
+}
+
+.color-choose:hover{
+	transform: scale(1.1);
+}
+
+button{
+	width: 70%;
+	padding: 20px ;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	font-size: 19px;
+	margin: auto;
+}
+
+button:hover{
+	transform: scale(1.1);
+	transition: 0.4s ease-in-out;
+	background-image: linear-gradient(to bottom right, #392270, #e9275b);
+	color: white;
+}
+
+.rang-container{
+	margin: 15px auto;
+	width: 70%;
+}
+
+.rang-container span{
+	font-size: 17px;
+}
+
+.rang-container input{
+	width: 195px;
+	background-color: white;
+	font-size: inherit;
+	outline: none;
+	border: none;
+	padding: 7px;
+	border-radius: 4px;
+}
+
+.draw-container{
+
+	display: grid;
+	background-color: white;
+	width: 500px;
+	height: 500px;
+	border-radius: 4px;
+	box-shadow: 7px 7px 7px black;
+}
+
+.boxs{
+	border: 1px solid black;
+}
